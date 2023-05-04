@@ -20,7 +20,7 @@
         padding-bottom: 5px;
     }
     .mg {
-        margin: 0px 0px;
+        margin: 0px;
     }
     .menu-area-main {
         height: 256px;
@@ -227,7 +227,7 @@
         font-size: 14px;
     }
     .text {
-        padding: 12px 12px;
+        padding: 12px;
     }
     .image_main::after {
         display: none;
@@ -372,7 +372,7 @@
         font-size: 14px;
     }
     .text {
-        padding: 12px 12px;
+        padding: 12px;
     }
     .image_main::after {
         display: none;
@@ -517,7 +517,7 @@
         font-size: 14px;
     }
     .text {
-        padding: 12px 12px;
+        padding: 12px;
     }
     .image_main::after {
         display: none;
