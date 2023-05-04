@@ -1,8 +1,10 @@
 from django.urls import path
-from . import api
+from .views import *
 
 app_name = 'app'
 
 urlpatterns = [
-    path('prediction/', api.SkinApi.as_view(), name='prediction'),
+    path('', HomePageView.as_view(), name='home'),
+    path('prediction/',PredictionPageView.as_view(),name='predict'),
+    path('download-report/',DownloadPDF.as_view(),name='download_pdf')
 ]

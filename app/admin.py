@@ -1,4 +1,7 @@
 from django.contrib import admin
-from .models import SkinImagePrediction
+from .models import *
 
-admin.site.register(SkinImagePrediction)
+admin.site.register(SkinBurnDegreeseClassification)
+admin.site.register(SkinBurnDegreeseInfo)
+
+
